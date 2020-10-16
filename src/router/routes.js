@@ -23,32 +23,33 @@ const frameIn = [
       },
       // 演示页面
       {
-        path: 'page1',
-        name: 'page1',
+        path: 'waitList',
+        name: 'waitList',
         meta: {
-          title: '页面 1',
+          title: '待入库',
           auth: true
         },
-        component: _import('demo/page1')
+        component: _import('pages/waitList')
       },
       {
-        path: 'page2',
-        name: 'page2',
+        path: 'processList',
+        name: 'processList',
         meta: {
-          title: '页面 2',
+          title: '已入库',
           auth: true
         },
-        component: _import('demo/page2')
+        component: _import('pages/processList')
       },
       {
-        path: 'page3',
-        name: 'page3',
+        path: 'historyList',
+        name: 'historyList',
         meta: {
-          title: '页面 3',
+          title: '历史记录',
           auth: true
         },
-        component: _import('demo/page3')
+        component: _import('pages/historyList')
       },
+
       // 系统 前端日志
       {
         path: 'log',

@@ -16,27 +16,36 @@ function supplementPath (menu) {
 }
 
 export const menuHeader = supplementPath([
-  { path: '/index', title: '首页', icon: 'home' },
+  { path: '/index', title: '返回', icon: 'home' },
   {
-    title: '页面',
-    icon: 'folder-o',
+    title: '图谱管理',
+    icon: 'file-powerpoint-o',
     children: [
-      { path: '/page1', title: '页面 1' },
-      { path: '/page2', title: '页面 2' },
-      { path: '/page3', title: '页面 3' }
+      { path: '/waitList', title: '待入库' },
+      { path: '/processList', title: '已入库' },
+      { path: '/historyList', title: '历史记录' }
     ]
   }
 ])
 
 export const menuAside = supplementPath([
-  { path: '/index', title: '首页', icon: 'home' },
+  { path: '/index', title: '返回', icon: 'home' },
   {
-    title: '页面',
+    title: '图谱管理',
+    icon: 'file-powerpoint-o',
+    children: [
+      { icon: 'spinner',path: '/waitList', title: '待入库' },
+      { icon: 'check-square-o',path: '/processList', title: '已入库' },
+      { icon: 'sellsy',path: '/historyList', title: '历史记录' } 
+    ]
+  },
+  {
+    title: '系统管理',
     icon: 'folder-o',
     children: [
-      { path: '/page1', title: '页面 1' },
-      { path: '/page2', title: '页面 2' },
-      { path: '/page3', title: '页面 3' }
+      {  icon: 'cog', path: '/index', title: '系统信息' },
+      { icon: 'question-circle-o',path: '/index', title: '参考手册' },
+      { icon: 'copyright',path: '/index', title: '授权查询' }
     ]
   }
 ])

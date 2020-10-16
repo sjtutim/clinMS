@@ -1,2 +1,2 @@
-# clinMS
- 
+# clinMS start UP 
+  yarn electron:serve

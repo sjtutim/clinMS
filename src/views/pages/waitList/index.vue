@@ -1,12 +1,12 @@
 <template>
   <d2-container>
-    <template slot="header">Page 1 header</template>
+    <template slot="header">待入库图谱</template>
     Hello World
   </d2-container>
 </template>
 
 <script>
 export default {
-  name: 'page1'
+  name: 'waitList'
 }
 </script>
