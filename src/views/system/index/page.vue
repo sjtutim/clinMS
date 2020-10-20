@@ -1,7 +1,7 @@
 <template>
   <d2-container class="page">
     <d2-page-cover>
-
+统计图标，任务面板等信息
     </d2-page-cover>
   </d2-container>
 </template>

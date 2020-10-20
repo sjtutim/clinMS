@@ -1,5 +1,5 @@
 {
-  "name": "d2-admin",
+  "name": "CliMS",
   "version": "1.20.1",
   "scripts": {
     "serve": "vue-cli-service serve --open",
@@ -22,6 +22,7 @@
     "better-scroll": "^1.15.2",
     "core-js": "^3.4.3",
     "dayjs": "^1.8.17",
+    "electron-json-storage": "^4.2.0",
     "element-ui": "^2.13.2",
     "faker": "^4.1.0",
     "flex.css": "^1.1.7",

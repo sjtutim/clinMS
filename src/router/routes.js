@@ -49,6 +49,15 @@ const frameIn = [
         },
         component: _import('pages/historyList')
       },
+      {
+        path: 'sysEdit',
+        name: 'sysEdit',
+        meta: {
+          title: '系统设置',
+          auth: true
+        },
+        component: _import('pages/sysEdit')
+      },
 
       // 系统 前端日志
       {

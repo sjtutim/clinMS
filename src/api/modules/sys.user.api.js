@@ -1,5 +1,7 @@
 import { find, assign } from 'lodash'
 
+// const ElStrore = require('electron-json-storage');
+
 const users = [
   { username: 'admin', password: 'admin', uuid: 'admin-uuid', name: 'Admin' },
   { username: 'editor', password: 'editor', uuid: 'editor-uuid', name: 'Editor' },
